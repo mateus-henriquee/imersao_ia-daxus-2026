@@ -91,3 +91,13 @@ imgs/
 - IA rende mais com contexto e instruções claras.
 - Um agente de IA precisa de um **limiar de confiança** para saber quando responder sozinho e quando chamar um humano.
 - Dados reais (a planilha) permitem calibrar esse limiar em vez de chutar.
+
+--- 
+
+## Contato
+- E-mail: mateush.leccese@gmail.com
+- LinkedIn: https://www.linkedin.com/in/devmateus-henriquee
+
+---
+
+# Feito por Mateus Henrique Leccese da Silva 🎲
