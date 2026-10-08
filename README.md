@@ -1,16 +1,16 @@
-# IMERSÃO IA — Daxus
+# IMERSÃO IA: Daxus
 
 Projeto desenvolvido durante a **Imersão de IA da Daxus** (4 dias). O resultado é um agente de IA que responde e-mails de alunos automaticamente, registra tudo em uma planilha e um dashboard para decidir o **limiar de confiança** ideal do agente.
 
 ## O que foi feito
 
-### Dia 1 — Usando IA da forma correta
+### Dia 1: Usando IA da forma correta
 Fundamentos de prompt, contexto e boas práticas para tirar o máximo da IA no dia a dia.
 
-### Dia 2 — Automação de e-mails com n8n
+### Dia 2: Automação de e-mails com n8n
 Workflow no n8n que recebe e-mails, filtra, passa para um agente de IA e responde automaticamente.
 
-![Workflow n8n](docs/workflow-n8n.png)
+![Automação de e-mails no n8n](imgs/autmoacao-n8n.png)
 
 **Fluxo:**
 
@@ -22,7 +22,7 @@ Workflow no n8n que recebe e-mails, filtra, passa para um agente de IA e respond
    - **Send a message in Gmail:** envia a resposta.
    - **Registrar Email:** salva uma linha no Google Sheets.
 
-### Dia 3 — Dashboard de limiar de confiança
+### Dia 3: Dashboard de limiar de confiança
 Todos os e-mails recebidos foram salvos em uma planilha do **Google Sheets**. Em cima dela, construí este dashboard, que mostra:
 
 - Total de e-mails processados
@@ -30,6 +30,8 @@ Todos os e-mails recebidos foram salvos em uma planilha do **Google Sheets**. Em
 - Confiança média do agente
 - **Simulador de limiar:** um slider (0 a 10) que recalcula tudo em tempo real
 - Gráficos: e-mails por categoria, distribuição de confiança e % automatizável por categoria
+
+![Dashboard de limiar de confiança](imgs/dashboard.png)
 
 **Colunas da planilha:** Data, Remetente, Categoria, Resumo, Resposta, Confiança.
 
@@ -79,8 +81,9 @@ src/
 │       └── dashboard.tsx         # dashboard e simulador
 ├── integrations/                 # Supabase e Lovable
 └── lib/                          # utilitários
-docs/
-└── workflow-n8n.png              # print do workflow
+imgs/
+├── autmoacao-n8n.png             # print do workflow
+└── dashboard.png                 # print do dashboard
 ```
 
 ## Aprendizados
