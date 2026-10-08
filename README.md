@@ -23,7 +23,7 @@ Workflow no n8n que recebe e-mails, filtra, passa para um agente de IA e respond
    - **Registrar Email:** salva uma linha no Google Sheets.
 
 ### Dia 3: Dashboard de limiar de confiança
-Todos os e-mails recebidos foram salvos em uma planilha do **Google Sheets**. Em cima dela, construí este dashboard, que mostra:
+Todos os e-mails recebidos pela automação do **n8n** foram salvos em uma planilha do **Google Sheets**. Em cima dela, construí este dashboard usando o **Lovable**, com o **Claude** me ajudando a planejar e refinar o projeto. Ele mostra:
 
 - Total de e-mails processados
 - % de e-mails que poderiam ser respondidos sem revisão humana
@@ -43,7 +43,7 @@ Todos os e-mails recebidos foram salvos em uma planilha do **Google Sheets**. Em
 | Dashboard | TanStack Start, React, TypeScript |
 | Estilo e gráficos | Tailwind CSS, Recharts |
 | Login | Supabase Auth |
-| Criado com | Lovable |
+| Criado com | Lovable e Claude |
 
 ## Rodar localmente
 
